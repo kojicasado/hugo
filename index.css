@@ -1,0 +1,148 @@
+*{
+
+    margin: 0px;
+    padding: 0%;
+    
+    }
+    
+    body {
+        
+        height: 100%;
+        background-color: #747474;
+        
+         
+        }
+    
+    .cabeçalho {
+       
+        color: white;
+        display: flex;
+        padding: 0 25px;
+        box-shadow: 0px 6px 10px #7c7c7c;
+        height: 100px ;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(67, 67, 67);
+    }
+    
+    .titulo {
+        
+        height: 100px;
+        border-radius: 50%;
+
+        
+    }
+
+    aside {
+
+        text-align: center;
+        height: 100vh;
+        background-color: rgb(100, 100, 100);
+        width: 100px;
+        box-shadow: 0px 0px px 0px #7c7c7c;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #ffff;
+    }
+  
+    li {
+
+ margin-top: 50px; }
+
+
+    main {
+    color: #fff;
+    flex: 1;
+    display: grid;
+    grid-template: 50% 50%;
+    
+    }
+
+    
+
+    section {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    a:link{
+
+        color: #ffff;
+        text-decoration: none;
+        }
+        
+        a:visited{
+        
+        color: #ffff;
+        text-decoration: none;
+        
+        }
+
+
+    h4 {
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 30px;
+        margin-top: 100PX;
+        text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+
+    }
+
+    article
+    {
+
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        align-items: center;
+        justify-items: center;
+        
+
+
+    }
+
+    .sl1
+    {
+
+            width: 300px;
+            border-radius: 20px;
+            margin-top: -100px;
+            }
+
+            button {
+
+
+background-color: #747474;
+height: 50%;
+border: none;
+text-transform: uppercase;
+        letter-spacing: 2.5px;
+        transition: all 0.2s ease 0s;
+        cursor: pointer;
+        
+
+            }
+
+            button:hover {background-color: #747474;
+                
+                color: #7d7d7d;
+                transform: scale(1.4)
+    
+            }
+  button:active {transform: scale(1.4);
+}
+
+footer {
+    font-size: 20px;
+
+margin-top: 0px;
+text-align: center;
+color: #ffffff;
+background-color: rgb(67, 67, 67);
+padding: 20px
+
+;
+}
+
+  
